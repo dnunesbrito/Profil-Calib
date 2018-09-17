@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <logicalFolder name="AutoDiff" displayName="AutoDiff" projectFiles="true">
+        <itemPath>../include/AutoDiff/AutoDiff.Cgen</itemPath>
+        <itemPath>../include/AutoDiff/AutoDiff.h</itemPath>
+        <itemPath>../include/AutoDiff/AutoDiff.hgen</itemPath>
+        <itemPath>../include/AutoDiff/IntervalAutoDiff.h</itemPath>
+        <itemPath>../include/AutoDiff/MATRIX_AUTODIFF.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="GlobalOpt" displayName="GlobalOpt" projectFiles="true">
+        <itemPath>../include/GlobalOpt/AppList.h</itemPath>
+        <itemPath>../include/GlobalOpt/Expand.h</itemPath>
+        <itemPath>../include/GlobalOpt/UnconstrainedOpt.h</itemPath>
+        <itemPath>../include/GlobalOpt/VecList.h</itemPath>
+        <itemPath>../include/GlobalOpt/VecUtils.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="LinOpt" displayName="LinOpt" projectFiles="true">
+        <itemPath>../include/LinOpt/LinOpt.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Lists" displayName="Lists" projectFiles="true">
+        <itemPath>../include/Lists/LinearList.hgen</itemPath>
+      </logicalFolder>
+      <logicalFolder name="LocalOpt" displayName="LocalOpt" projectFiles="true">
+        <itemPath>../include/LocalOpt/Brent.h</itemPath>
+        <itemPath>../include/LocalOpt/NelderMead.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="NLF" displayName="NLF" projectFiles="true">
+        <itemPath>../include/NLF/NLF.hpp</itemPath>
+        <itemPath>../include/NLF/NLF2.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="NonLinOpt" displayName="NonLinOpt" projectFiles="true">
+        <itemPath>../include/NonLinOpt/NonLinOpt.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="OverDetLinSys"
+                     displayName="OverDetLinSys"
+                     projectFiles="true">
+        <itemPath>../include/OverDetLinSys/OverDetLinSys.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="PolinomialRoots"
+                     displayName="PolinomialRoots"
+                     projectFiles="true">
+        <itemPath>../include/PolinomialRoots/PolinomialRoots.hpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <logicalFolder name="Packages" displayName="Packages" projectFiles="true">
+        <logicalFolder name="AutoDiff" displayName="AutoDiff" projectFiles="true">
+          <itemPath>../src/Packages/AutoDiff/AutoDiff.C</itemPath>
+          <itemPath>../src/Packages/AutoDiff/IntervalAutoDiff.C</itemPath>
+        </logicalFolder>
+        <logicalFolder name="GlobalOpt" displayName="GlobalOpt" projectFiles="true">
+          <itemPath>../src/Packages/GlobalOpt/AppList.C</itemPath>
+          <itemPath>../src/Packages/GlobalOpt/Expand.C</itemPath>
+          <itemPath>../src/Packages/GlobalOpt/UnconstrainedOpt.C</itemPath>
+          <itemPath>../src/Packages/GlobalOpt/VecList.C</itemPath>
+          <itemPath>../src/Packages/GlobalOpt/VecUtils.C</itemPath>
+        </logicalFolder>
+        <logicalFolder name="LinOpt" displayName="LinOpt" projectFiles="true">
+          <itemPath>../src/Packages/LinOpt/LinOpt.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Lists" displayName="Lists" projectFiles="true">
+          <itemPath>../src/Packages/Lists/LinearList.Cgen</itemPath>
+        </logicalFolder>
+        <logicalFolder name="LocalOpt" displayName="LocalOpt" projectFiles="true">
+          <itemPath>../src/Packages/LocalOpt/Brent.C</itemPath>
+          <itemPath>../src/Packages/LocalOpt/NelderMead.C</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Misc" displayName="Misc" projectFiles="true">
+          <itemPath>../src/Packages/Misc/MiscFunctions.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="NLF" displayName="NLF" projectFiles="true">
+          <itemPath>../src/Packages/NLF/NLF.cpp</itemPath>
+          <itemPath>../src/Packages/NLF/NLF2.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="NonLinOpt" displayName="NonLinOpt" projectFiles="true">
+          <itemPath>../src/Packages/NonLinOpt/NonLinOpt.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="OverdetLinSys"
+                       displayName="OverdetLinSys"
+                       projectFiles="true">
+          <itemPath>../src/Packages/OverdetLinSys/OverDetLinSys.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="PolinomialRoots"
+                       displayName="PolinomialRoots"
+                       projectFiles="true">
+          <itemPath>../src/Packages/PolinomialRoots/PolinomialRoots.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../include/AutoDiff</Elem>
+    <Elem>../include/GlobalOpt</Elem>
+    <Elem>../include/Lists</Elem>
+    <Elem>../include/LocalOpt</Elem>
+    <Elem>../include/NLF</Elem>
+    <Elem>../src/Packages</Elem>
+    <Elem>../src/BIAS</Elem>
+    <Elem>../src/Base</Elem>
+    <Elem>../../FileOp</Elem>
+    <Elem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</Elem>
+    <Elem>../include/PolinomialRoots</Elem>
+    <Elem>../include/OverDetLinSys</Elem>
+    <Elem>../include/LinOpt</Elem>
+    <Elem>../include/NonLinOpt</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>2</architecture>
+          <standard>10</standard>
+          <incDir>
+            <pElem>../include</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <architecture>2</architecture>
+          <standard>11</standard>
+          <incDir>
+            <pElem>../include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../include/AutoDiff/AutoDiff.Cgen" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/AutoDiff/AutoDiff.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/AutoDiff/AutoDiff.hgen" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/AutoDiff/IntervalAutoDiff.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../include/AutoDiff/MATRIX_AUTODIFF.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../include/GlobalOpt/AppList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/GlobalOpt/Expand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/GlobalOpt/UnconstrainedOpt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../include/GlobalOpt/VecList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/GlobalOpt/VecUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/LinOpt/LinOpt.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Lists/LinearList.hgen" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/LocalOpt/Brent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/LocalOpt/NelderMead.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/NLF/NLF.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/NLF/NLF2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/NonLinOpt/NonLinOpt.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/OverDetLinSys/OverDetLinSys.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../include/PolinomialRoots/PolinomialRoots.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/AutoDiff/AutoDiff.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/AutoDiff/IntervalAutoDiff.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/GlobalOpt/AppList.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/GlobalOpt/Expand.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Packages/GlobalOpt/UnconstrainedOpt.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/GlobalOpt/VecList.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/GlobalOpt/VecUtils.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/LinOpt/LinOpt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Packages/Lists/LinearList.Cgen"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/LocalOpt/Brent.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Packages/LocalOpt/NelderMead.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/Misc/MiscFunctions.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/NLF/NLF.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Packages/NLF/NLF2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Packages/NonLinOpt/NonLinOpt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/OverdetLinSys/OverDetLinSys.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/PolinomialRoots/PolinomialRoots.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <standard>10</standard>
+          <incDir>
+            <pElem>../include</pElem>
+            <pElem>../ALIAS_TAR</pElem>
+            <pElem>../../FileOp/include</pElem>
+            <pElem>../../../ibm/ILOG/CPLEX_Studio_Community1263/concert/include</pElem>
+            <pElem>../../../ibm/ILOG/CPLEX_Studio_Community1263/cplex/include</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../include</pElem>
+            <pElem>../ALIAS_TAR</pElem>
+            <pElem>../../FileOp/include</pElem>
+            <pElem>/usr/local/include</pElem>
+            <pElem>/opt/ibm/ILOG/CPLEX_Studio_Community127/concert/include</pElem>
+            <pElem>/opt/ibm/ILOG/CPLEX_Studio_Community127/cplex/include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>-o /usr/local/lib/libga.a -o libbias.a -o libprofil -o /opt/ibm/ILOG/CPLEX_Studio_Community127/cplex/lib/x86-64_linux/static_pic/libilocplex.a -o /opt/ibm/ILOG/CPLEX_Studio_Community127/cplex/lib/x86-64_linux/static_pic/libcplex.a -o /opt/ibm/ILOG/CPLEX_Studio_Community127/concert/lib/x86-64_linux/static_pic/libconcert.a</commandLine>
+        </asmTool>
+        <archiverTool>
+          <output>../lib/libprofilpackages.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../include/AutoDiff/AutoDiff.Cgen" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/AutoDiff/AutoDiff.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/AutoDiff/AutoDiff.hgen" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/AutoDiff/IntervalAutoDiff.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../include/AutoDiff/MATRIX_AUTODIFF.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../include/GlobalOpt/AppList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/GlobalOpt/Expand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/GlobalOpt/UnconstrainedOpt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../include/GlobalOpt/VecList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/GlobalOpt/VecUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/LinOpt/LinOpt.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Lists/LinearList.hgen" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/LocalOpt/Brent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/LocalOpt/NelderMead.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/NLF/NLF.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/NLF/NLF2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/NonLinOpt/NonLinOpt.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/OverDetLinSys/OverDetLinSys.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../include/PolinomialRoots/PolinomialRoots.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/AutoDiff/AutoDiff.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/AutoDiff/IntervalAutoDiff.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/GlobalOpt/AppList.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/GlobalOpt/Expand.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Packages/GlobalOpt/UnconstrainedOpt.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/GlobalOpt/VecList.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/GlobalOpt/VecUtils.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/LinOpt/LinOpt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Packages/Lists/LinearList.Cgen"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/LocalOpt/Brent.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Packages/LocalOpt/NelderMead.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/Misc/MiscFunctions.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/NLF/NLF.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Packages/NLF/NLF2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Packages/NonLinOpt/NonLinOpt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/OverdetLinSys/OverDetLinSys.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../src/Packages/PolinomialRoots/PolinomialRoots.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

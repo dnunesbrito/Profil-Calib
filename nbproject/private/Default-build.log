@@ -1,0 +1,9 @@
+make[1]: Entering directory '/home/darlan/NetBeansProjects/Profil-2.0.8/src'
+make[2]: Entering directory '/home/darlan/NetBeansProjects/Profil-2.0.8/src/BIAS'
+make[2]: *** No rule to make target 'Bias0.h', needed by 'Bias0.o'.  Pare.
+make[2]: Leaving directory '/home/darlan/NetBeansProjects/Profil-2.0.8/src/BIAS'
+Makefile:30: recipe for target 'all' failed
+make[1]: *** [all] Error 2
+make[1]: Leaving directory '/home/darlan/NetBeansProjects/Profil-2.0.8/src'
+Makefile:31: recipe for target 'all' failed
+make: *** [all] Error 2

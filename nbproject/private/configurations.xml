@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="ALIAS_TAR">
+        <in>header_2B.h</in>
+        <in>header_Analysis_Univariate.h</in>
+        <in>header_Solve_General_Interval.h</in>
+        <in>header_Solve_UP.h</in>
+        <in>header_Trigo.h</in>
+        <in>header_Utilities_Interval.h</in>
+        <in>header_Utilities_UP.h</in>
+        <in>header_constants.h</in>
+        <in>header_externe.h</in>
+        <in>header_functions.h</in>
+        <in>header_parser.h</in>
+      </df>
+      <df name="Bias">
+        <df name="build">
+          <df name="Debug">
+            <df name="GNU-Linux">
+              <df name="_ext">
+                <df name="c32d8f73">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="Release">
+            <df name="GNU-Linux">
+              <df name="_ext">
+                <df name="c32d8f73">
+                </df>
+              </df>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="config">
+        <df name="alpha-Linux-compat-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="hppa-HPUX-fast-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="mips-irix-compat-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="ppc-MacOSX-compat-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="rs6000-AIX4.1-compat-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="rs6000-AIX4.1-compat-xlc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="sparc-Solaris2.x-compat-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="sparc-Solaris2.x-fast-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="sparc-SunOS4.1-compat-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="sparc-SunOS4.1-fast-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="x86-64-Linux-compat-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="x86-Linux-compat-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="x86-Linux-fast-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="x86-Win32-compat-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="x86-Win32-compat-watcom">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+        <df name="x86-Win32-fast-gcc">
+          <in>BiasRnd.c</in>
+          <in>BiasRnd.h</in>
+          <in>fpRound.s</in>
+        </df>
+      </df>
+      <df name="include">
+        <df name="AutoDiff">
+          <in>AUTODIFF_ELEMENT.hpp</in>
+          <in>AutoDiff.Cgen</in>
+          <in>AutoDiff.h</in>
+          <in>IntervalAutoDiff.h</in>
+          <in>MATRIX_AUTODIFF.hpp</in>
+          <in>VECTOR_AUTODIFF.hpp</in>
+        </df>
+        <df name="BIAS">
+          <in>Bias0.h</in>
+          <in>Bias0Ext.hpp</in>
+          <in>Bias1.h</in>
+          <in>Bias2.h</in>
+          <in>BiasF.h</in>
+          <in>BiasFExt.hpp</in>
+          <in>BiasInt.h</in>
+          <in>BiasRnd.h</in>
+          <in>BiasType.h</in>
+        </df>
+        <df name="GlobalOpt">
+          <in>AppList.h</in>
+          <in>Expand.h</in>
+          <in>UnconstrainedOpt.h</in>
+          <in>VecList.h</in>
+          <in>VecUtils.h</in>
+        </df>
+        <df name="LinOpt">
+          <in>LinOpt.hpp</in>
+        </df>
+        <df name="Lists">
+          <in>LinearList.Cgen</in>
+        </df>
+        <df name="LocalOpt">
+          <in>Brent.h</in>
+          <in>NelderMead.h</in>
+        </df>
+        <df name="lr">
+          <in>DynMem.h</in>
+          <in>Li.h</in>
+          <in>Lr.h</in>
+          <in>LrDefs.h</in>
+          <in>LrIntern.h</in>
+          <in>Portab.h</in>
+        </df>
+        <df name="Misc">
+          <in>MiscFunctions.h</in>
+        </df>
+        <df name="NLF">
+          <in>NLF.hpp</in>
+          <in>NLF2.hpp</in>
+          <in>NLF_old.h</in>
+        </df>
+        <df name="NonLinOpt">
+          <in>NonLinOpt.hpp</in>
+        </df>
+        <df name="OverDetLinSys">
+          <in>OverDetLinSys.hpp</in>
+        </df>
+        <df name="PolinomialRoots">
+          <in>PolinomialRoots.hpp</in>
+        </df>
+        <df name="TestMatrices">
+          <in>TestMatrices.h</in>
+        </df>
+        <in>Boolean.h</in>
+        <in>Complex.h</in>
+        <in>Configuration.h</in>
+        <in>Constants.h</in>
+        <in>Definitions.h</in>
+        <in>EFunctions.h</in>
+        <in>EINTERVAL.hpp</in>
+        <in>EINTERVALVECTOR.hpp</in>
+        <in>EINTERVAL_MATRIX.hpp</in>
+        <in>Error.h</in>
+        <in>Functions.h</in>
+        <in>HighPrec.h</in>
+        <in>IntegerMatrix.h</in>
+        <in>IntegerVector.h</in>
+        <in>Interval.h</in>
+        <in>IntervalMatrix.h</in>
+        <in>IntervalVector.h</in>
+        <in>LSS.h</in>
+        <in>LongInterval.h</in>
+        <in>LongReal.h</in>
+        <in>Matrix.h</in>
+        <in>RealOp.h</in>
+        <in>Utilities.h</in>
+        <in>Vector.h</in>
+      </df>
+      <df name="lib">
+      </df>
+      <df name="lr">
+        <df name="build">
+          <df name="Debug">
+            <df name="GNU-Linux">
+              <df name="_ext">
+                <df name="cfb868c0">
+                </df>
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="dist">
+          <df name="Debug">
+            <df name="GNU-Linux">
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="MATRIX_AUTODIFF">
+        <in>MATRIX_AUTODIFF.hpp</in>
+      </df>
+      <df name="Pasta sem título">
+      </df>
+      <df name="Profil">
+        <df name="build">
+          <df name="Release">
+            <df name="GNU-Linux">
+              <df name="_ext">
+                <df name="c32d8f73">
+                </df>
+                <df name="c32defab">
+                </df>
+              </df>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="Profilpackages">
+        <df name="build">
+          <df name="Debug">
+            <df name="GNU-Linux">
+              <df name="_ext">
+                <df name="189662bc">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="Release">
+            <df name="GNU-Linux">
+              <df name="_ext">
+                <df name="189662bc">
+                </df>
+                <df name="2bf81100">
+                </df>
+                <df name="2e7522b3">
+                </df>
+                <df name="34280fb0">
+                </df>
+                <df name="3a9aca05">
+                </df>
+                <df name="530a0d54">
+                </df>
+                <df name="9b54e027">
+                </df>
+                <df name="afd184a8">
+                </df>
+                <df name="b704acca">
+                </df>
+              </df>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="src">
+        <df name="Base">
+          <in>Complex.C</in>
+          <in>Constants.C</in>
+          <in>EFunctions.C</in>
+          <in>EINTERVAL.cpp</in>
+          <in>EINTERVALVECTOR.cpp</in>
+          <in>EINTERVAL_MATRIX.cpp</in>
+          <in>Error.C</in>
+          <in>Functions.C</in>
+          <in>HighPrec.C</in>
+          <in>IntegerMatrix.C</in>
+          <in>IntegerVector.C</in>
+          <in>Interval.C</in>
+          <in>IntervalMatrix.C</in>
+          <in>IntervalVector.C</in>
+          <in>LSS.C</in>
+          <in>LongInterval.C</in>
+          <in>LongReal.C</in>
+          <in>Matrix.C</in>
+          <in>NiceIntervalIO.C</in>
+          <in>RealOp.c</in>
+          <in>TestLSS.C</in>
+          <in>Utilities.C</in>
+          <in>Vector.C</in>
+        </df>
+        <df name="BIAS">
+          <in>Bias0.c</in>
+          <in>Bias0Ext.cpp</in>
+          <in>Bias1.c</in>
+          <in>Bias2.c</in>
+          <in>BiasF.c</in>
+          <in>BiasFExt.cpp</in>
+          <in>BiasRnd.c</in>
+          <in>Rounding.c</in>
+        </df>
+        <df name="lr">
+          <in>DynMem.c</in>
+          <in>DynMem.h</in>
+          <in>LiCvt1.c</in>
+          <in>LiCvt2.c</in>
+          <in>LiEuler.c</in>
+          <in>LiMem.c</in>
+          <in>LiOp0.c</in>
+          <in>LiOp1.c</in>
+          <in>LrCvt0.c</in>
+          <in>LrCvt1.c</in>
+          <in>LrCvt2.c</in>
+          <in>LrIntern.c</in>
+          <in>LrMem.c</in>
+          <in>LrOp0.c</in>
+          <in>LrOp1.c</in>
+          <in>LrOp2.c</in>
+          <in>LrPi.c</in>
+          <in>LrSc.c</in>
+        </df>
+        <df name="Packages">
+          <df name="AutoDiff">
+            <in>AutoDiff.C</in>
+            <in>IntervalAutoDiff.C</in>
+            <in>MATRIX_AUTODIFF.cpp</in>
+            <in>TestAutoDiff.C</in>
+          </df>
+          <df name="GlobalOpt">
+            <df name="arquivo.h">
+              <in>AppList.h</in>
+              <in>Expand.h</in>
+              <in>VecList.h</in>
+              <in>VecUtils.h</in>
+            </df>
+            <in>AppList.C</in>
+            <in>Expand.C</in>
+            <in>TestOpt.C</in>
+            <in>UnconstrainedOpt.C</in>
+            <in>VecList.C</in>
+            <in>VecUtils.C</in>
+          </df>
+          <df name="GlobalOpt (cópia)">
+            <df name="arquivo.h">
+              <in>AppList.h</in>
+              <in>Expand.h</in>
+              <in>VecList.h</in>
+              <in>VecUtils.h</in>
+            </df>
+            <in>AppList.C</in>
+            <in>Expand.C</in>
+            <in>TestOpt.C</in>
+            <in>UnconstrainedOpt.C</in>
+            <in>VecList.C</in>
+            <in>VecUtils.C</in>
+          </df>
+          <df name="LinOpt">
+            <in>LinOpt.cpp</in>
+          </df>
+          <df name="Lists">
+            <in>LinearList.Cgen</in>
+          </df>
+          <df name="Lists (cópia)">
+            <in>LinearList.Cgen</in>
+          </df>
+          <df name="LocalOpt">
+            <in>Brent.C</in>
+            <in>NelderMead.C</in>
+            <in>TestBrent.C</in>
+            <in>TestNelderMead.C</in>
+          </df>
+          <df name="Misc">
+            <in>MiscFunctions.c</in>
+          </df>
+          <df name="NLF">
+            <in>NLF (cópia).cpp</in>
+            <in>NLF.C</in>
+            <in>NLF.cpp</in>
+            <in>NLF2.cpp</in>
+            <in>TestNLF.C</in>
+          </df>
+          <df name="NonLinOpt">
+            <in>NonLinOpt.cpp</in>
+          </df>
+          <df name="OverdetLinSys">
+            <in>OverDetLinSys.cpp</in>
+          </df>
+          <df name="PolinomialRoots">
+            <in>PolinomialRoots.cpp</in>
+          </df>
+          <df name="TestMatrices">
+            <in>BaseTestMatrices.c</in>
+            <in>TestMatrices.C</in>
+          </df>
+        </df>
+      </df>
+      <df name="test">
+        <in>TBias.c</in>
+        <in>TBiasF.c</in>
+        <in>TBiasS.c</in>
+        <in>TProfilS.C</in>
+      </df>
+      <df name="testesgerais">
+        <df name="build">
+        </df>
+        <df name="dist">
+          <df name="Debug">
+            <df name="GNU-Linux">
+            </df>
+          </df>
+        </df>
+        <df name="list">
+        </df>
+        <in>AutoDiff.cpp</in>
+        <in>AutoDiff.hpp</in>
+        <in>LinOpt.cpp</in>
+        <in>LinOpt.hpp</in>
+        <in>LocalOpt.cpp</in>
+        <in>LocalOpt.hpp</in>
+        <in>OptFunctions.cpp</in>
+        <in>main.cpp</in>
+        <in>xPX_functions.cpp</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="config">
+        <df name="x86-64-Linux-compat-gcc">
+          <in>BiasRnd.c</in>
+        </df>
+      </df>
+      <df name="src">
+        <df name="Base">
+          <in>Complex.C</in>
+          <in>Constants.C</in>
+          <in>Error.C</in>
+          <in>Functions.C</in>
+          <in>HighPrec.C</in>
+          <in>IntegerMatrix.C</in>
+          <in>IntegerVector.C</in>
+          <in>Interval.C</in>
+          <in>IntervalMatrix.C</in>
+          <in>IntervalVector.C</in>
+          <in>LSS.C</in>
+          <in>LongInterval.C</in>
+          <in>LongReal.C</in>
+          <in>Matrix.C</in>
+          <in>NiceIntervalIO.C</in>
+          <in>RealOp.c</in>
+          <in>Utilities.C</in>
+          <in>Vector.C</in>
+        </df>
+        <df name="BIAS">
+          <in>Bias0.c</in>
+          <in>Bias1.c</in>
+          <in>Bias2.c</in>
+          <in>BiasF.c</in>
+        </df>
+        <df name="lr">
+          <in>DynMem.c</in>
+          <in>LiCvt1.c</in>
+          <in>LiCvt2.c</in>
+          <in>LiMem.c</in>
+          <in>LiOp0.c</in>
+          <in>LiOp1.c</in>
+          <in>LrCvt0.c</in>
+          <in>LrCvt1.c</in>
+          <in>LrCvt2.c</in>
+          <in>LrIntern.c</in>
+          <in>LrMem.c</in>
+          <in>LrOp0.c</in>
+          <in>LrOp1.c</in>
+          <in>LrOp2.c</in>
+          <in>LrSc.c</in>
+        </df>
+        <df name="Packages">
+          <df name="AutoDiff">
+            <in>AutoDiff.C</in>
+            <in>IntervalAutoDiff.C</in>
+          </df>
+          <df name="GlobalOpt">
+            <in>AppList.C</in>
+            <in>Expand.C</in>
+            <in>UnconstrainedOpt.C</in>
+            <in>VecList.C</in>
+            <in>VecUtils.C</in>
+          </df>
+          <df name="LocalOpt">
+            <in>Brent.C</in>
+            <in>NelderMead.C</in>
+          </df>
+          <df name="Misc">
+            <in>MiscFunctions.c</in>
+          </df>
+          <df name="NLF">
+            <in>NLF.C</in>
+          </df>
+          <df name="TestMatrices">
+            <in>BaseTestMatrices.c</in>
+            <in>TestMatrices.C</in>
+          </df>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0"
+                 commonFlags="-mtune=generic -march=x86-64 -O2 -fPIC -fstack-protector"/>
+        <element flagsID="1"
+                 commonFlags="-mtune=generic -march=x86-64 -g -O2 -fPIC -fstack-protector"/>
+        <element flagsID="2"
+                 commonFlags="-mtune=generic -march=x86-64 -g -fPIC -fstack-protector"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="config/x86-64-Linux-compat-gcc/BiasRnd.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <folder path="0/config">
+        <cTool>
+          <incDir>
+            <pElem>config/x86-64-Linux-compat-gcc</pElem>
+            <pElem>src/BIAS</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/src/BIAS">
+        <cTool>
+          <incDir>
+            <pElem>src/BIAS</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/src/Base">
+        <cTool>
+          <incDir>
+            <pElem>src/BIAS</pElem>
+            <pElem>src/Base</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/src/Packages">
+        <cTool>
+          <incDir>
+            <pElem>src/BIAS</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/src/Packages/AutoDiff">
+        <ccTool>
+          <incDir>
+            <pElem>src/Packages/AutoDiff</pElem>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/Packages</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/Packages/LocalOpt">
+        <ccTool>
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/Packages/Misc</pElem>
+            <pElem>src/Packages</pElem>
+            <pElem>src/Packages/LocalOpt</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/Packages/Misc">
+        <cTool>
+          <incDir>
+            <pElem>src/Packages/Misc</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/src/Packages/NLF">
+        <ccTool>
+          <incDir>
+            <pElem>src/Packages/AutoDiff</pElem>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/Packages/NLF</pElem>
+            <pElem>src/Packages</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/Packages/TestMatrices">
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>src/Packages/Misc</pElem>
+            <pElem>src/Base</pElem>
+            <pElem>src/Packages</pElem>
+            <pElem>src/Packages/TestMatrices</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/Packages/TestMatrices</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="src/BIAS/Bias0.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>config/x86-64-Linux-compat-gcc</pElem>
+            <pElem>src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/BIAS/Bias1.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>config/x86-64-Linux-compat-gcc</pElem>
+            <pElem>src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/BIAS/Bias2.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>config/x86-64-Linux-compat-gcc</pElem>
+            <pElem>src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/BIAS/BiasF.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>config/x86-64-Linux-compat-gcc</pElem>
+            <pElem>src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/Base/Complex.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/Base</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/Constants.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/Error.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/BIAS</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/Functions.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/HighPrec.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/lr</pElem>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/IntegerMatrix.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/BIAS</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/IntegerVector.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/BIAS</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/Interval.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/Base</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/IntervalMatrix.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/IntervalVector.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/LSS.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/LongInterval.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/LongReal.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/Base</pElem>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/Matrix.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/NiceIntervalIO.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/Base</pElem>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/RealOp.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="src/Base/Utilities.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Base/Vector.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Packages/AutoDiff/AutoDiff.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/Packages/AutoDiff/IntervalAutoDiff.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/Packages/GlobalOpt/AppList.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>src/Packages/GlobalOpt</pElem>
+            <pElem>src/Base</pElem>
+            <pElem>src/Packages/Lists</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/Packages</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Packages/GlobalOpt/Expand.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/Packages/AutoDiff</pElem>
+            <pElem>src/Packages/NLF</pElem>
+            <pElem>src/Packages/GlobalOpt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Packages/GlobalOpt/UnconstrainedOpt.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>src/Packages/Lists</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/Packages/AutoDiff</pElem>
+            <pElem>src/Packages/NLF</pElem>
+            <pElem>src/Packages/GlobalOpt</pElem>
+            <pElem>src/Packages/LocalOpt</pElem>
+            <pElem>src/Packages</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Packages/GlobalOpt/VecList.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>src/Packages/Lists</pElem>
+            <pElem>src/Base</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/Packages/GlobalOpt</pElem>
+            <pElem>src/Packages</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Packages/GlobalOpt/VecUtils.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/Base</pElem>
+            <pElem>/usr/include/c++/4.8</pElem>
+            <pElem>src/BIAS</pElem>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/bits</pElem>
+            <pElem>/usr/include/c++/4.8/ext</pElem>
+            <pElem>/usr/include/c++/4.8/debug</pElem>
+            <pElem>src/Packages/GlobalOpt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/Packages/LocalOpt/Brent.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/Packages/LocalOpt/NelderMead.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/Packages/Misc/MiscFunctions.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="src/Packages/NLF/NLF.C" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/Packages/TestMatrices/BaseTestMatrices.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="src/Packages/TestMatrices/TestMatrices.C"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/lr/DynMem.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LiCvt1.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LiCvt2.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LiMem.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LiOp0.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LiOp1.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LrCvt0.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LrCvt1.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LrCvt2.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LrIntern.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LrMem.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.8/include</pElem>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LrOp0.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LrOp1.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LrOp2.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/lr/LrSc.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>src/lr</pElem>
+          </incDir>
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

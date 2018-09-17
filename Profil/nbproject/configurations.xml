@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="ALIAS_TAR" displayName="ALIAS_TAR" projectFiles="true">
+      <itemPath>../ALIAS_TAR/header_2B.h</itemPath>
+      <itemPath>../ALIAS_TAR/header_Analysis_Univariate.h</itemPath>
+      <itemPath>../ALIAS_TAR/header_Solve_General_Interval.h</itemPath>
+      <itemPath>../ALIAS_TAR/header_Solve_UP.h</itemPath>
+      <itemPath>../ALIAS_TAR/header_Trigo.h</itemPath>
+      <itemPath>../ALIAS_TAR/header_Utilities_Interval.h</itemPath>
+      <itemPath>../ALIAS_TAR/header_Utilities_UP.h</itemPath>
+      <itemPath>../ALIAS_TAR/header_constants.h</itemPath>
+      <itemPath>../ALIAS_TAR/header_externe.h</itemPath>
+      <itemPath>../ALIAS_TAR/header_functions.h</itemPath>
+      <itemPath>../ALIAS_TAR/header_parser.h</itemPath>
+      <itemPath>../ALIAS_TAR/manual-alias-C++2.5.pdf</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <itemPath>../include/Boolean.h</itemPath>
+      <itemPath>../include/Complex.h</itemPath>
+      <itemPath>../include/Configuration.h</itemPath>
+      <itemPath>../include/Constants.h</itemPath>
+      <itemPath>../include/Definitions.h</itemPath>
+      <itemPath>../include/EINTERVAL.hpp</itemPath>
+      <itemPath>../include/EINTERVALVECTOR.hpp</itemPath>
+      <itemPath>../include/EINTERVAL_MATRIX.hpp</itemPath>
+      <itemPath>../include/Error.h</itemPath>
+      <itemPath>../include/Functions.h</itemPath>
+      <itemPath>../include/HighPrec.h</itemPath>
+      <itemPath>../include/IntegerMatrix.h</itemPath>
+      <itemPath>../include/IntegerVector.h</itemPath>
+      <itemPath>../include/Interval.h</itemPath>
+      <itemPath>../include/IntervalMatrix.h</itemPath>
+      <itemPath>../include/IntervalVector.h</itemPath>
+      <itemPath>../include/LSS.h</itemPath>
+      <itemPath>../include/LongInterval.h</itemPath>
+      <itemPath>../include/LongReal.h</itemPath>
+      <itemPath>../include/Matrix.h</itemPath>
+      <itemPath>../include/RealOp.h</itemPath>
+      <itemPath>../include/Utilities.h</itemPath>
+      <itemPath>../include/Vector.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>../src/Base/Complex.C</itemPath>
+      <itemPath>../src/Base/Constants.C</itemPath>
+      <itemPath>../src/Base/EFunctions.C</itemPath>
+      <itemPath>../src/Base/EINTERVAL.cpp</itemPath>
+      <itemPath>../src/Base/EINTERVALVECTOR.cpp</itemPath>
+      <itemPath>../src/Base/EINTERVAL_MATRIX.cpp</itemPath>
+      <itemPath>../src/Base/Error.C</itemPath>
+      <itemPath>../src/Base/Functions.C</itemPath>
+      <itemPath>../src/Base/HighPrec.C</itemPath>
+      <itemPath>../src/Base/IntegerMatrix.C</itemPath>
+      <itemPath>../src/Base/IntegerVector.C</itemPath>
+      <itemPath>../src/Base/Interval.C</itemPath>
+      <itemPath>../src/Base/IntervalMatrix.C</itemPath>
+      <itemPath>../src/Base/IntervalVector.C</itemPath>
+      <itemPath>../src/Base/LSS.C</itemPath>
+      <itemPath>../src/Base/LongInterval.C</itemPath>
+      <itemPath>../src/Base/LongReal.C</itemPath>
+      <itemPath>../src/Base/Matrix.C</itemPath>
+      <itemPath>../src/Base/NiceIntervalIO.C</itemPath>
+      <itemPath>../src/Base/RealOp.c</itemPath>
+      <itemPath>../src/Base/Utilities.C</itemPath>
+      <itemPath>../src/Base/Vector.C</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="BIAS" displayName="BIAS" projectFiles="true">
+      <itemPath>../src/BIAS/Bias0.c</itemPath>
+      <itemPath>../src/BIAS/Bias0Ext.cpp</itemPath>
+      <itemPath>../src/BIAS/Bias1.c</itemPath>
+      <itemPath>../src/BIAS/Bias2.c</itemPath>
+      <itemPath>../src/BIAS/BiasF.c</itemPath>
+      <itemPath>../src/BIAS/BiasFExt.cpp</itemPath>
+      <itemPath>../src/BIAS/BiasRnd.c</itemPath>
+      <itemPath>../src/BIAS/Rounding.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../src/BIAS</Elem>
+    <Elem>../ALIAS_TAR</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>2</architecture>
+          <standard>10</standard>
+          <incDir>
+            <pElem>../include</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <standard>11</standard>
+          <incDir>
+            <pElem>../include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../ALIAS_TAR/header_2B.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_Analysis_Univariate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_Solve_General_Interval.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_Solve_UP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_Trigo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_Utilities_Interval.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_Utilities_UP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_externe.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_functions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/manual-alias-C++2.5.pdf"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../include/Boolean.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Complex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Configuration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Definitions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/EINTERVAL.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/EINTERVALVECTOR.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/EINTERVAL_MATRIX.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Functions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/HighPrec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/IntegerMatrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/IntegerVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Interval.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/IntervalMatrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/IntervalVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/LSS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/LongInterval.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/LongReal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/RealOp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Utilities.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias0Ext.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/BiasF.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/BiasFExt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/BIAS/BiasRnd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Rounding.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/Base/Complex.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/Constants.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/EFunctions.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/EINTERVAL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/EINTERVALVECTOR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/EINTERVAL_MATRIX.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/Error.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/Functions.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/HighPrec.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/IntegerMatrix.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/IntegerVector.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/Interval.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/IntervalMatrix.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/IntervalVector.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/LSS.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/LongInterval.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/LongReal.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/Matrix.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/NiceIntervalIO.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/RealOp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/Base/Utilities.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/Vector.C" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <standard>10</standard>
+          <incDir>
+            <pElem>../include</pElem>
+            <pElem>../ALIAS_TAR</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../include</pElem>
+            <pElem>../ALIAS_TAR</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+          <architecture>2</architecture>
+        </asmTool>
+        <archiverTool>
+          <output>../lib/libprofil.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../ALIAS_TAR/header_2B.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_Analysis_Univariate.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_Solve_General_Interval.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_Solve_UP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_Trigo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_Utilities_Interval.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_Utilities_UP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_externe.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_functions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/header_parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ALIAS_TAR/manual-alias-C++2.5.pdf"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../include/Boolean.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Complex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Configuration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Definitions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/EINTERVAL.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/EINTERVALVECTOR.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/EINTERVAL_MATRIX.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Functions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/HighPrec.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/IntegerMatrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/IntegerVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Interval.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/IntervalMatrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/IntervalVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/LSS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/LongInterval.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/LongReal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/RealOp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Utilities.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/Vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias0Ext.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/BiasF.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/BiasFExt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/BIAS/BiasRnd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Rounding.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/Base/Complex.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/Constants.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/EFunctions.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/EINTERVAL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/EINTERVALVECTOR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/EINTERVAL_MATRIX.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/Error.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/Functions.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/HighPrec.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/IntegerMatrix.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/IntegerVector.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/Interval.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/IntervalMatrix.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/IntervalVector.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/LSS.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/LongInterval.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/LongReal.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/Matrix.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/NiceIntervalIO.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/RealOp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/Base/Utilities.C" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/Base/Vector.C" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

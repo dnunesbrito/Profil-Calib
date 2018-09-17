@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <logicalFolder name="BIAS" displayName="BIAS" projectFiles="true">
+        <itemPath>../include/BIAS/Bias0.h</itemPath>
+        <itemPath>../include/BIAS/Bias0Ext.hpp</itemPath>
+        <itemPath>../include/BIAS/Bias1.h</itemPath>
+        <itemPath>../include/BIAS/Bias2.h</itemPath>
+        <itemPath>../include/BIAS/BiasF.h</itemPath>
+        <itemPath>../include/BIAS/BiasFExt.hpp</itemPath>
+        <itemPath>../include/BIAS/BiasInt.h</itemPath>
+        <itemPath>../include/BIAS/BiasRnd.h</itemPath>
+        <itemPath>../include/BIAS/BiasType.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <logicalFolder name="BIAS" displayName="BIAS" projectFiles="true">
+        <itemPath>../src/BIAS/Bias0.c</itemPath>
+        <itemPath>../src/BIAS/Bias0Ext.cpp</itemPath>
+        <itemPath>../src/BIAS/Bias1.c</itemPath>
+        <itemPath>../src/BIAS/Bias2.c</itemPath>
+        <itemPath>../src/BIAS/BiasF.c</itemPath>
+        <itemPath>../src/BIAS/BiasFExt.cpp</itemPath>
+        <itemPath>../src/BIAS/BiasRnd.c</itemPath>
+        <itemPath>../src/BIAS/Rounding.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+      <itemPath>Bias.pc</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../include/BIAS</Elem>
+    <Elem>../src/BIAS</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+          <incDir>
+            <pElem>../include</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <architecture>2</architecture>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../include/BIAS/Bias0.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/Bias0Ext.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/Bias1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/Bias2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/BiasF.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/BiasFExt.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/BiasInt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/BiasRnd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/BiasType.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias0Ext.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/BiasF.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/BiasFExt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/BIAS/BiasRnd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Rounding.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Bias.pc" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <architecture>2</architecture>
+          <standard>10</standard>
+          <incDir>
+            <pElem>../include</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+          <output>../lib/libbias.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../include/BIAS/Bias0.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/Bias0Ext.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/Bias1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/Bias2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/BiasF.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/BiasFExt.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/BiasInt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/BiasRnd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/BIAS/BiasType.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias0Ext.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Bias2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/BiasF.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/BiasFExt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../src/BIAS/BiasRnd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/Rounding.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Bias.pc" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

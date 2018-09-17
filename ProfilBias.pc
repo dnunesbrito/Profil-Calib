@@ -1,0 +1,10 @@
+prefix=/home/darlan/NetBeansProjects/Profil-2.0.8
+includedir=${prefix}/include
+libdir=${prefix}/lib
+yamllibdir = /home/darlan/NetBeansProjects/yaml-cpp-master/build
+
+Name: Bias
+Description: The base library to use interval algebra
+Version: 0.1
+Cflags: -I${includedir}
+Libs: -L${libdir} -lbias -L${libdir} -lprofil -L${libdir} -llr -L${libdir} -lprofilpackages -L${yamllibdir} -lyaml-cpp

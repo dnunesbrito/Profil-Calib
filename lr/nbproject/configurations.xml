@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <logicalFolder name="lr" displayName="lr" projectFiles="true">
+        <itemPath>../src/lr/DynMem.c</itemPath>
+        <itemPath>../src/lr/DynMem.h</itemPath>
+        <itemPath>../src/lr/LiCvt1.c</itemPath>
+        <itemPath>../src/lr/LiCvt2.c</itemPath>
+        <itemPath>../src/lr/LiMem.c</itemPath>
+        <itemPath>../src/lr/LiOp0.c</itemPath>
+        <itemPath>../src/lr/LiOp1.c</itemPath>
+        <itemPath>../src/lr/LrCvt0.c</itemPath>
+        <itemPath>../src/lr/LrCvt1.c</itemPath>
+        <itemPath>../src/lr/LrCvt2.c</itemPath>
+        <itemPath>../src/lr/LrIntern.c</itemPath>
+        <itemPath>../src/lr/LrMem.c</itemPath>
+        <itemPath>../src/lr/LrOp0.c</itemPath>
+        <itemPath>../src/lr/LrOp1.c</itemPath>
+        <itemPath>../src/lr/LrOp2.c</itemPath>
+        <itemPath>../src/lr/LrSc.c</itemPath>
+        <itemPath>../src/lr/Makefile</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../src/lr</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>2</architecture>
+          <standard>10</standard>
+          <incDir>
+            <pElem>../include</pElem>
+            <pElem>../ALIAS_TAR</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <architecture>2</architecture>
+          <standard>11</standard>
+          <incDir>
+            <pElem>../include</pElem>
+            <pElem>../ALIAS_TAR</pElem>
+          </incDir>
+        </ccTool>
+        <asmTool>
+          <architecture>2</architecture>
+        </asmTool>
+        <archiverTool>
+          <output>../lib/liblr.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../src/lr/DynMem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/DynMem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/lr/LiCvt1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LiCvt2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LiMem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LiOp0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LiOp1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrCvt0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrCvt1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrCvt2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrIntern.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrMem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrOp0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrOp1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrOp2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrSc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="../src/lr/DynMem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/DynMem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/lr/LiCvt1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LiCvt2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LiMem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LiOp0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LiOp1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrCvt0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrCvt1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrCvt2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrIntern.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrMem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrOp0.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrOp1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrOp2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/LrSc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/lr/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

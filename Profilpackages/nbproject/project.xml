@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.cnd.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>Profilpackages</name>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions>C,cpp</cpp-extensions>
+            <header-extensions>h,hpp</header-extensions>
+            <sourceEncoding>UTF-8</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../include/AutoDiff</sourceRootElem>
+                <sourceRootElem>../include/GlobalOpt</sourceRootElem>
+                <sourceRootElem>../include/Lists</sourceRootElem>
+                <sourceRootElem>../include/LocalOpt</sourceRootElem>
+                <sourceRootElem>../include/NLF</sourceRootElem>
+                <sourceRootElem>../src/Packages</sourceRootElem>
+                <sourceRootElem>../src/BIAS</sourceRootElem>
+                <sourceRootElem>../src/Base</sourceRootElem>
+                <sourceRootElem>../../FileOp</sourceRootElem>
+                <sourceRootElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</sourceRootElem>
+                <sourceRootElem>../include/PolinomialRoots</sourceRootElem>
+                <sourceRootElem>../include/OverDetLinSys</sourceRootElem>
+                <sourceRootElem>../include/LinOpt</sourceRootElem>
+                <sourceRootElem>../include/NonLinOpt</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>Debug</name>
+                    <type>3</type>
+                </confElem>
+                <confElem>
+                    <name>Release</name>
+                    <type>3</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
