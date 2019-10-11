@@ -32,6 +32,7 @@ SSEBIASINTERVAL::SSEBIASINTERVAL(double A, double B){
 }
 
 SSEBIASINTERVAL::SSEBIASINTERVAL(const SSEBIASINTERVAL& orig) {
+    Interval.presultSSE = _mm_set_pd(orig.Interval.presult[1],orig.Interval.presult[0]);
 }
 
 SSEBIASINTERVAL::~SSEBIASINTERVAL() {
