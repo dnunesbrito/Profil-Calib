@@ -15,8 +15,8 @@ NM=nm
 CCADMIN=CCadmin
 RANLIB=ranlib
 CC=gcc
-CCC=g++
-CXX=g++
+CCC=g++-7
+CXX=g++-7
 FC=gfortran
 AS=as
 
@@ -42,7 +42,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/_ext/c32d8f73/BiasF.o \
 	${OBJECTDIR}/_ext/c32d8f73/BiasFExt.o \
 	${OBJECTDIR}/_ext/c32d8f73/BiasRnd.o \
-	${OBJECTDIR}/_ext/c32d8f73/Rounding.o
+	${OBJECTDIR}/_ext/c32d8f73/Rounding.o \
+	${OBJECTDIR}/_ext/c32d8f73/SSEBIASINTERVAL.o
 
 
 # C Compiler Flags
@@ -110,6 +111,11 @@ ${OBJECTDIR}/_ext/c32d8f73/Rounding.o: ../src/BIAS/Rounding.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/c32d8f73
 	${RM} "$@.d"
 	$(COMPILE.c) -g -I../include -std=c11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/c32d8f73/Rounding.o ../src/BIAS/Rounding.c
+
+${OBJECTDIR}/_ext/c32d8f73/SSEBIASINTERVAL.o: ../src/BIAS/SSEBIASINTERVAL.cpp
+	${MKDIR} -p ${OBJECTDIR}/_ext/c32d8f73
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I../include -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/c32d8f73/SSEBIASINTERVAL.o ../src/BIAS/SSEBIASINTERVAL.cpp
 
 # Subprojects
 .build-subprojects:

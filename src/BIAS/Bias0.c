@@ -215,20 +215,13 @@ VOID BiasAddII (BIASINTERVAL * const pR,
   /**********************************************************************
   *  R = A + B
   */
-{   
-  double * presult = (double*)aligned_alloc(2* sizeof (double),16);
-  _BiasRoundDown ();
-  __m128d a = _mm_set_pd(pA->inf, pB->inf);
-  __m128d b = _mm_set_pd(pA ->sup, pB->sup);
-  __m128d * presultSSE = (__m128d*)presult;
-  *presultSSE = _mm_add_pd(a,b);
-  
-  //pR->inf = pA->inf + pB->inf;
- // int A;
- // A = pA->inf+pB->inf;
-  _BiasRoundUp ();
- // pR->sup = pA->sup + pB->sup;
-  _SetRoundToNearest();
+{
+    pR->inf = pA->inf + pB->inf;
+    int A;
+    A = pA->inf+pB->inf;
+    _BiasRoundUp ();
+    pR->sup = pA->sup + pB->sup;
+    _SetRoundToNearest();
 } /* BiasAddII */
 
 VOID BiasSubRR (BIASINTERVAL * const pR,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="97">
+<configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="HeaderFiles"
                    displayName="Arquivos de Cabeçalho"
@@ -14,6 +14,7 @@
         <itemPath>../include/BIAS/BiasInt.h</itemPath>
         <itemPath>../include/BIAS/BiasRnd.h</itemPath>
         <itemPath>../include/BIAS/BiasType.h</itemPath>
+        <itemPath>../include/BIAS/SSEBIASINTERVAL.hpp</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
@@ -28,6 +29,7 @@
         <itemPath>../src/BIAS/BiasFExt.cpp</itemPath>
         <itemPath>../src/BIAS/BiasRnd.c</itemPath>
         <itemPath>../src/BIAS/Rounding.c</itemPath>
+        <itemPath>../src/BIAS/SSEBIASINTERVAL.cpp</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -94,6 +96,11 @@
       </item>
       <item path="../include/BIAS/BiasType.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../include/BIAS/SSEBIASINTERVAL.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="../src/BIAS/Bias0.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="../src/BIAS/Bias0Ext.cpp" ex="false" tool="1" flavor2="0">
@@ -109,6 +116,8 @@
       <item path="../src/BIAS/BiasRnd.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="../src/BIAS/Rounding.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/SSEBIASINTERVAL.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Bias.pc" ex="false" tool="3" flavor2="0">
       </item>
@@ -164,6 +173,11 @@
       </item>
       <item path="../include/BIAS/BiasType.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../include/BIAS/SSEBIASINTERVAL.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="../src/BIAS/Bias0.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="../src/BIAS/Bias0Ext.cpp" ex="false" tool="1" flavor2="0">
@@ -179,6 +193,8 @@
       <item path="../src/BIAS/BiasRnd.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="../src/BIAS/Rounding.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/BIAS/SSEBIASINTERVAL.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Bias.pc" ex="false" tool="3" flavor2="0">
       </item>
