@@ -31,6 +31,9 @@ public:
     double inf(){return Interval.presult[1];}
     double sup(){return Interval.presult[0];}
     friend SSEBIASINTERVAL operator + (SSEBIASINTERVAL &pA,SSEBIASINTERVAL &pB);
+    SSEBIASINTERVAL operator = (SSEBIASINTERVAL &pA){
+        Interval.presultSSE = _mm_set_pd(pA.Interval.presult[1],pA.Interval.presult[0]);
+    };
 private:
     union interval{
         double  presult[2];
