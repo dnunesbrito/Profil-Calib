@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="97">
+<configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="ALIAS_TAR" displayName="ALIAS_TAR" projectFiles="true">
       <itemPath>../ALIAS_TAR/header_2B.h</itemPath>
@@ -292,6 +292,7 @@
             <pElem>../include</pElem>
             <pElem>../ALIAS_TAR</pElem>
           </incDir>
+          <commandLine>-fPIC</commandLine>
         </ccTool>
         <fortranCompilerTool>
           <developmentMode>5</developmentMode>

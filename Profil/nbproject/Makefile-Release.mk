@@ -15,8 +15,8 @@ NM=nm
 CCADMIN=CCadmin
 RANLIB=ranlib
 CC=gcc
-CCC=g++
-CXX=g++
+CCC=g++-7
+CXX=g++-7
 FC=gfortran
 AS=as
 
@@ -71,8 +71,8 @@ OBJECTFILES= \
 CFLAGS=-m64
 
 # CC Compiler Flags
-CCFLAGS=-m64
-CXXFLAGS=-m64
+CCFLAGS=-m64 -fPIC
+CXXFLAGS=-m64 -fPIC
 
 # Fortran Compiler Flags
 FFLAGS=
