@@ -12,6 +12,9 @@
  */
 
 #include <cstdlib>
+#include <iostream>
+#include <BIAS/Bias0.h>
+#include <BIAS/SSEBIASINTERVAL.hpp>
 
 using namespace std;
 
@@ -19,7 +22,8 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-
+    SSEBIASINTERVAL A(1,2),B(3,4),C;
+    C = A+B;
     return 0;
 }
 

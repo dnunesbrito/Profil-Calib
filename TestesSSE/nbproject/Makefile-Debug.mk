@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/_ext/c32d8f73/SSEBIASINTERVAL.o \
 	${OBJECTDIR}/main.o
 
 
@@ -62,10 +63,15 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testessse: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testessse ${OBJECTFILES} ${LDLIBSOPTIONS}
 
+${OBJECTDIR}/_ext/c32d8f73/SSEBIASINTERVAL.o: ../src/BIAS/SSEBIASINTERVAL.cpp
+	${MKDIR} -p ${OBJECTDIR}/_ext/c32d8f73
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I../include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/c32d8f73/SSEBIASINTERVAL.o ../src/BIAS/SSEBIASINTERVAL.cpp
+
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
+	$(COMPILE.cc) -g -I../include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
 
 # Subprojects
 .build-subprojects:
