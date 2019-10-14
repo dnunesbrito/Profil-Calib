@@ -13,6 +13,8 @@
         <gdb_interceptlist>
           <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
         </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
         <gdb_options>
           <DebugOptions>
           </DebugOptions>
@@ -24,6 +26,14 @@
       </nativedebugger>
       <runprofile version="9">
         <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -repeticoes 100</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -repeticoes 1000 -opcao 2</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -repeticoes 1000</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -repeticoes 10000</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -repeticoes 10000 -opcao 2</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -repeticoes 100000</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -repeticoes 100000 -opcao 2</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -opcao 2</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
         </runcommandpicklist>
         <runcommand>"${OUTPUT_PATH}"</runcommand>

@@ -46,6 +46,11 @@
             <pElem>../include</pElem>
           </incDir>
         </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>../lib/libbias.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
       </compileType>
       <item path="../src/BIAS/SSEBIASINTERVAL.cpp" ex="false" tool="1" flavor2="0">
       </item>

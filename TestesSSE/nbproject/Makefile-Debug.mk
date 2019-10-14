@@ -53,11 +53,13 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=
+LDLIBSOPTIONS=../lib/libbias.a
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
 	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testessse
+
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testessse: ../lib/libbias.a
 
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testessse: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
