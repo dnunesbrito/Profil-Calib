@@ -40,7 +40,10 @@ SSEBIASINTERVAL::~SSEBIASINTERVAL() {
 
 SSEBIASINTERVAL operator + (const SSEBIASINTERVAL& pA,const SSEBIASINTERVAL& pB){
     SSEBIASINTERVAL t;
-    t.Interval.presultSSE = _mm_add_pd(pA.Interval.presultSSE,pB.Interval.presultSSE);
+    __m128d a = _mm_set_pd(1.0,2.0);
+    __m128d b = _mm_set_pd(1.0,2.0);
+    __m128d presultSSE = _mm_add_pd(pA.Interval.presultSSE,pB.Interval.presultSSE);
     return t;
-};
+}
+
 

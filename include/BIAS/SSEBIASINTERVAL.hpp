@@ -22,17 +22,21 @@
 
 class SSEBIASINTERVAL {
 public:
-    SSEBIASINTERVAL(){
-
-    };
+    SSEBIASINTERVAL(){};
     SSEBIASINTERVAL(double A,double B);
     SSEBIASINTERVAL(const SSEBIASINTERVAL& orig);
     virtual ~SSEBIASINTERVAL();
     double inf(){return Interval.presult[1];}
     double sup(){return Interval.presult[0];}
-    friend SSEBIASINTERVAL operator + (SSEBIASINTERVAL &pA,SSEBIASINTERVAL &pB);
-    SSEBIASINTERVAL operator = (SSEBIASINTERVAL &pA){
+    friend SSEBIASINTERVAL operator + (const SSEBIASINTERVAL& pA,const SSEBIASINTERVAL& pB);
+    SSEBIASINTERVAL & operator = (const SSEBIASINTERVAL& pA){
         Interval.presultSSE = _mm_set_pd(pA.Interval.presult[1],pA.Interval.presult[0]);
+    };
+    __m128d AddII(double a1,double a2,double b1,double b2){
+    __m128d a = _mm_set_pd(1.0,2.0);
+    __m128d b = _mm_set_pd(1.0,2.0);
+    __m128d presultSSE = _mm_add_pd(a,b);
+    return presultSSE;
     };
 private:
     union interval{
