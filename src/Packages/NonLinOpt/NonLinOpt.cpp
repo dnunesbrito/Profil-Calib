@@ -147,7 +147,6 @@ vector<INTERVAL> NonLinOpt::IntervalNewtonMethod(INT XIdx,REAL epsilon_f){
                         }
                         x_star.push_back(X(XIdx));
                         fVal = fI;
-                        cout.flush();
                         break;
                     }
                 }
@@ -685,13 +684,13 @@ INT NonLinOpt::GlobalOptimization(vector<INTERVAL_VECTOR>& L1){
                         smallX = X;
                         smallXinf = Inf(f(1));
                         smallXsup = Sup(f(1));
-    //                    if(showfx){
+                        if(showfx){
                             cout << " *****  Menor X *****" << endl;
                             cout << "X=" << X;
                             EX = X;
                             cout << "  f = " << Sqrt(Function(fcn,EX,userdata))/DimensionData << endl;
-    //                    }
-                            menormax = true;
+                        }
+                        menormax = true;
                         if(UpperBound > smallXsup)
                             UpperBound = smallXsup;
                         contBranches = 0;
@@ -700,12 +699,12 @@ INT NonLinOpt::GlobalOptimization(vector<INTERVAL_VECTOR>& L1){
                             smallX = X;
                             smallXinf = Inf(f(1));
                             smallXsup = Sup(f(1));
-    //                        if(showfx){
+                            if(showfx){
                                 cout << " *****  Menor X *****" << endl;
                                 cout << "X=" << X;
                                 EX = X;
                                 cout << "  f = " << Sqrt(Function(fcn,EX,userdata))/DimensionData << endl;
-    //                        }
+                            }
                                 menormax = true;
                             if(UpperBound > smallXsup)
                                 UpperBound = smallXsup;
@@ -718,13 +717,13 @@ INT NonLinOpt::GlobalOptimization(vector<INTERVAL_VECTOR>& L1){
                             smallX = X;
                             smallXinf = Inf(f(1));
                             smallXsup = Sup(f(1));
-    //                        if(showfx){
+                            if(showfx){
                                 cout << " *****  Menor X *****" << endl;
                                 cout << "X=" << X;
                                 EX = X;
                                 cout << "  f = " << Sqrt(Function(fcn,EX,userdata))/DimensionData << endl;
-    //                        }
-                                menormax = true;
+                            }
+                            menormax = true;
                             if(UpperBound > smallXsup)
                                 UpperBound = smallXsup;
                             contBranches = 0;
@@ -735,13 +734,13 @@ INT NonLinOpt::GlobalOptimization(vector<INTERVAL_VECTOR>& L1){
                 if(diffXinf  >= epsilon_f || iter == 1){
                     medXvec = X;
                     medX = Mid(f(1));
-    //                if(showfx){
+                    if(showfx){
                         cout << " *****  Menor X médio *****" << endl;
                         cout << "X=" << X;
                         EX = X;
                         cout << "  f = " << Sqrt(Function(fcn,EX,userdata))/DimensionData << endl;
-    //                }
-                        menormed = true;
+                    }
+                    menormed = true;
                 }
                 HCf = 0;
                 HCgrd = 0;
@@ -773,7 +772,6 @@ INT NonLinOpt::GlobalOptimization(vector<INTERVAL_VECTOR>& L1){
                 EX = X;
                 cout << "  f = " << Sqrt(Function(fcn,EX,userdata))/DimensionData << endl;
             }
-            cout.flush();
             wI = X.diam().max();
             /****************************************/
             f_bar = INTERVAL(LowerBound,UpperBound);
@@ -843,7 +841,6 @@ INT NonLinOpt::GlobalOptimization(vector<INTERVAL_VECTOR>& L1){
                 }
                 /*****************************************/
             }
-            cout.flush();
             bool passo20 = false;
             if(HCgrd < cdim_f){ 
                 HCf = 0;
@@ -924,7 +921,6 @@ INT NonLinOpt::GlobalOptimization(vector<INTERVAL_VECTOR>& L1){
             }else{
                 passo20 = false;
             }
-            cout.flush();
             if(passo20){
                 /*** Passo 15 ********/
                 Xl = X;
@@ -977,16 +973,12 @@ INT NonLinOpt::GlobalOptimization(vector<INTERVAL_VECTOR>& L1){
             }
             REAL wxI = X.diam().max();
             REAL wxIafter;
-            cout.flush();
             if(wxI < (wI + wR)/2){
-                cout.flush();
                 if(passo20){
-                    cout.flush();
                     INTERVAL_VECTOR grd;
                     passo3 = false;
                     int iter = 0;
                     do{
-                        cout.flush();
                         /************ Passo 20 e 21 *********/
                         status = onepassNewtonstep(true,Hull(Mid(X)));
                         if(status == STRICTILYNEGATIVE){
@@ -1107,7 +1099,6 @@ INT NonLinOpt::GlobalOptimization(vector<INTERVAL_VECTOR>& L1){
                 }
             }
             /************* Passo 33 **************/
-            cout.flush();
             if(passo6(L2)){
                 atualizaX = true;
                 passo3 = false;
@@ -1724,7 +1715,6 @@ NONLINSTATUS NonLinOpt::NewtonMethod(vector<INTERVAL_VECTOR>& L){
             vector<INTERVAL_VECTOR>::iterator it = L.begin();
             X = L[L.size()-1];
             L.pop_back();
-            cout.flush();
             wI = X.diam().max();
             XI1 = X;
             xB = Mid(X);

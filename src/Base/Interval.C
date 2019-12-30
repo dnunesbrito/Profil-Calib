@@ -33,7 +33,7 @@ static const char rcs_id[] = "$Id: Interval.C 478 2006-08-09 13:13:30Z keil $";
 
 #include "BIAS/BiasFExt.hpp"
 
-ostream & operator << (ostream & os, CONST INTERVAL & x)
+/*ostream & operator << (ostream & os, CONST INTERVAL & x)
 {
   return os << '[' << Inf (x) << ',' << Sup(x) << ']';
 }
@@ -46,7 +46,7 @@ istream & operator >> (istream & is, INTERVAL & x)
   is >> b;
   BiasHullRR (Bias(x), & a, & b);
   return is;
-}
+}*/
 
 // The following code is only used to force Constants.C to be
 // always included in the executable code.
