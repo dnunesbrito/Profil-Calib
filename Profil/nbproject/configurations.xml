@@ -86,6 +86,12 @@
                    displayName="Arquivos de Teste"
                    projectFiles="false"
                    kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f1"
+                     displayName="Teste Simples C++"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>../src/BIAS/tests/Teste PROFIL.cpp</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Arquivos Importantes"
@@ -223,6 +229,8 @@
       </item>
       <item path="../src/BIAS/Rounding.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="../src/BIAS/tests/Teste PROFIL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="../src/Base/Complex.C" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../src/Base/Constants.C" ex="false" tool="1" flavor2="0">
@@ -267,6 +275,21 @@
       </item>
       <item path="../src/Base/Vector.C" ex="false" tool="1" flavor2="0">
       </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
     </conf>
     <conf name="Release" type="3">
       <toolsSet>
@@ -300,6 +323,7 @@
         <asmTool>
           <developmentMode>5</developmentMode>
           <architecture>2</architecture>
+          <commandLine>-o liblr</commandLine>
         </asmTool>
         <archiverTool>
           <output>../lib/libprofil.a</output>
@@ -403,6 +427,8 @@
       </item>
       <item path="../src/BIAS/Rounding.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="../src/BIAS/tests/Teste PROFIL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="../src/Base/Complex.C" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../src/Base/Constants.C" ex="false" tool="1" flavor2="0">
@@ -447,6 +473,26 @@
       </item>
       <item path="../src/Base/Vector.C" ex="false" tool="1" flavor2="0">
       </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerLibFileItem>../lib/libprofil.a</linkerLibFileItem>
+            <linkerLibFileItem>../lib/liblr.a</linkerLibFileItem>
+            <linkerLibFileItem>../lib/libbias.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
     </conf>
   </confs>
 </configurationDescriptor>

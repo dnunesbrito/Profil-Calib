@@ -32,11 +32,6 @@
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#ifdef __SSE2__
-  #include <emmintrin.h>
-#else
-  #warning SSE2 support is not available. Code will not compile
-#endif
 
 static const char rcs_id[] = "$Id: Bias0.c 478 2006-08-09 13:13:30Z keil $";
 
@@ -216,12 +211,11 @@ VOID BiasAddII (BIASINTERVAL * const pR,
   *  R = A + B
   */
 {
-    pR->inf = pA->inf + pB->inf;
-    int A;
-    A = pA->inf+pB->inf;
-    _BiasRoundUp ();
-    pR->sup = pA->sup + pB->sup;
-    _SetRoundToNearest();
+  _BiasRoundDown ();
+  pR->inf = pA->inf + pB->inf;
+  _BiasRoundUp ();
+  pR->sup = pA->sup + pB->sup;
+  _SetRoundToNearest();
 } /* BiasAddII */
 
 VOID BiasSubRR (BIASINTERVAL * const pR,
